@@ -30,7 +30,7 @@ def delete_file(fileDict2):
 
 full_file_paths=[]                                              #list to store all file location
 time_path=[]                                                    #list to store date and time of file
-full_file_paths = get_filepaths("give your folder path here")   #call to create list of location of file
+full_file_paths = get_filepaths("D:\Output")                    #call to create list of location of file
 time_path=get_time(full_file_paths)                             #call to create list of date and time of file
 fileDict={}                                                     #dictonary to store location and date and time
 fileDict=dict(zip(full_file_paths,time_path))                   #initializing dictonary location as key and date and time as value
